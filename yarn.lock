@@ -358,7 +358,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.16.4, @babel/parser@npm:^7.18.4, @babel/parser@npm:^7.18.6":
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.16.4, @babel/parser@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/parser@npm:7.18.6"
   bin:
@@ -1864,17 +1864,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:2.7.4":
-  version: 2.7.4
-  resolution: "@vue/compiler-sfc@npm:2.7.4"
-  dependencies:
-    "@babel/parser": ^7.18.4
-    postcss: ^8.4.14
-    source-map: ^0.6.1
-  checksum: f4f4ce4196b1f3668b4e15dfff969b6e2d06aadff9431608ffe977ce1b184eef99fc5553d9770f41960d3543b3dae37f3a8ea9732b80be9ae018a334140d1ec6
-  languageName: node
-  linkType: hard
-
 "@vue/compiler-sfc@npm:3.2.37":
   version: 3.2.37
   resolution: "@vue/compiler-sfc@npm:3.2.37"
@@ -2854,13 +2843,6 @@ __metadata:
   version: 2.6.20
   resolution: "csstype@npm:2.6.20"
   checksum: cb5d5ded49c3390909e93b20b285d4a63d0ba5b10294bdfbc4cf911f80e91d6cf367ea671f99f09570762535c14ea7074a2c7fa73f02008203f01328dea8968b
-  languageName: node
-  linkType: hard
-
-"csstype@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "csstype@npm:3.1.0"
-  checksum: 644e986cefab86525f0b674a06889cfdbb1f117e5b7d1ce0fc55b0423ecc58807a1ea42ecc75c4f18999d14fc42d1d255f84662a45003a52bb5840e977eb2ffd
   languageName: node
   linkType: hard
 
@@ -5864,7 +5846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.1.10, postcss@npm:^8.4.14":
+"postcss@npm:^8.1.10":
   version: 8.4.14
   resolution: "postcss@npm:8.4.14"
   dependencies:
@@ -7173,21 +7155,11 @@ __metadata:
     "@vue/composition-api": 1.7.0
     "@vue/test-utils": 1.3.0
     jest: 27.5.1
-    vue: 2.7.4
+    vue: 3.2.37
     vue-demi: 0.13.2
     vue-template-compiler: 2.7.4
   languageName: unknown
   linkType: soft
-
-"vue@npm:2.7.4":
-  version: 2.7.4
-  resolution: "vue@npm:2.7.4"
-  dependencies:
-    "@vue/compiler-sfc": 2.7.4
-    csstype: ^3.1.0
-  checksum: 5347f88b43b9addf061944739550e00c19d031bf1f36d2b7c2eb321a3df7ff329be52eadd2fe7d267cd9358f8ba45386225fca8e77a863c6cdc67f2e3fdd9a89
-  languageName: node
-  linkType: hard
 
 "vue@npm:3.2.37":
   version: 3.2.37
